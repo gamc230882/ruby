@@ -1,0 +1,7 @@
+<div class = "card" style = "padding:15px;max-width:500px;margin-top:18px">
+	<p style= "margin-bottom: 0px">id:<%= article.id  %></p>
+	<h3 style ="margin-bottom:2px"><%= article.title.upcase  %></h3>
+	<%= article.content  %>      
+	<p class = "text-secondary"; style= "margin-bottom: 0px" ><%= article.created_at %></p>
+	<%= link_to "Ver más", article %> 
+</div> 
